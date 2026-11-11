@@ -1,0 +1,674 @@
+[
+  {
+    "path": "pipeline/battery_degradation_model.py",
+    "source": "code/Generative EV-battery/data/battery_degradation_model.py",
+    "sha256": "7dedaa4b55ece5542f3a24fe4bc932db955e2be0977415bc6980d6a190ff19cd",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/battery_degradation_model_pinn.py",
+    "source": "code/Generative EV-battery/data/battery_degradation_model_pinn.py",
+    "sha256": "d4e56055b18aabbeb81a0772929367b793dff5149eb2ce9f992704ecd27550c2",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/build_ev_dataset.py",
+    "source": "code/Generative EV-battery/data/build_ev_dataset.py",
+    "sha256": "eee9cd08d666e8af0dd9da107f350173dc6b5952a816cf5e1d1d606aa1a9925f",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/build_grid_dataset.py",
+    "source": "code/Generative EV-battery/data/build_grid_dataset.py",
+    "sha256": "5d0ae584abb2f1e3de19610ad83f385799f0428e136c1f885106fe3b2e834a0d",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/build_joint_scenarios.py",
+    "source": "code/Generative EV-battery/data/build_joint_scenarios.py",
+    "sha256": "edead42e26e6a54f423b81be56eebfb6637721b825f97b90a060d7218aca63aa",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/build_llm_timing_scenario_pilot.py",
+    "source": "code/Generative EV-battery/data/build_llm_timing_scenario_pilot.py",
+    "sha256": "74ea868bdf29101048c635db66482f365ac96cf467325eba5389dee696225d19",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/build_optimization_inputs.py",
+    "source": "code/Generative EV-battery/data/build_optimization_inputs.py",
+    "sha256": "a0c42cf2279f08c71c5b27ee47b7a50b218fa17db15f3b4c29fc1040cd3c4563",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/build_optimization_inputs_flexible.py",
+    "source": "code/Generative EV-battery/data/build_optimization_inputs_flexible.py",
+    "sha256": "0ba0a6046eb66635abd221943719c266b51c55c7ae001f5ecc9cb9d0015003fd",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/build_plot_data_from_existing_results.py",
+    "source": "code/Generative EV-battery/data/build_plot_data_from_existing_results.py",
+    "sha256": "64098faaa12c87d924a5995d6af8105410dbcff0021bf9018051c55978fb25f3",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/build_stress_scenarios.py",
+    "source": "code/Generative EV-battery/data/build_stress_scenarios.py",
+    "sha256": "1a2663e56f0005fd16e8f0b20bacc9797c942e9442950debf68bdd12ad223cfd",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/check_aging_derating_boundaries.py",
+    "source": "code/Generative EV-battery/data/check_aging_derating_boundaries.py",
+    "sha256": "36a54e184bc0a7c6ea038caaad8c6f517e81d9e43b70a73aafb158f0c47667ca",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/check_low_confidence_risk_boundary.py",
+    "source": "code/Generative EV-battery/data/check_low_confidence_risk_boundary.py",
+    "sha256": "348bdc748f12debfe8aa3ec82263e294f5edfba30c162ea86404ada22f5e0afb",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/compare_debt_recovery.py",
+    "source": "code/Generative EV-battery/data/compare_debt_recovery.py",
+    "sha256": "1f5ae63313c1750a805e6f4d990210ad3560412ff9ffea7bc743fafcf74052f1",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/compare_one_shot_vs_receding_horizon.py",
+    "source": "code/Generative EV-battery/data/compare_one_shot_vs_receding_horizon.py",
+    "sha256": "ac7102c412773374d2560b2f4a028ae773e90099f6ee2f3e18a41ac4aeed488b",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/compare_stress_modes.py",
+    "source": "code/Generative EV-battery/data/compare_stress_modes.py",
+    "sha256": "2f9c35775cfa2baaf352bbcc3514b0e7a00ebff68bc8800a587418a7a9b9cbf2",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/compare_stress_modes_pretty.py",
+    "source": "code/Generative EV-battery/data/compare_stress_modes_pretty.py",
+    "sha256": "c6b7daa570dfce06b48ce933a99d590f3dc9d83520b0ca64720aebac394f836a",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/compare_with_without_degradation.py",
+    "source": "code/Generative EV-battery/data/compare_with_without_degradation.py",
+    "sha256": "ff16b58323b50ee0e8cdc4aeaec4f905e01b19fc04c857a64983dd69ab720976",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/debt_aware_recovery.py",
+    "source": "code/Generative EV-battery/data/debt_aware_recovery.py",
+    "sha256": "d83f7618e4079a3722176f53d9cd0d1c6cfc00a74798621a78ecb18d8662951d",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/diagnose_low_confidence_reversals.py",
+    "source": "code/Generative EV-battery/data/diagnose_low_confidence_reversals.py",
+    "sha256": "1e7f2217e8efef1b3c41273bfab7be88d24309cfcfbf67e72ed565e597f62c42",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/ev_generator_learned_vae.py",
+    "source": "code/Generative EV-battery/data/ev_generator_learned_vae.py",
+    "sha256": "2cfff69ebd60d1aab218648c795c41921d7359a927b698ec51a91a15cebad28d",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/evaluate_mean_cvar_objective.py",
+    "source": "code/Generative EV-battery/data/evaluate_mean_cvar_objective.py",
+    "sha256": "3f1d290a54a31d37725a627730c76ba7b8c442e86269401821c73cb1ae5f2311",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/lock_peak_physical_development.py",
+    "source": "code/Generative EV-battery/data/lock_peak_physical_development.py",
+    "sha256": "cd8b8c763297c8718c7326b4c851d331de32cc0f5478567676f8e5b441d6fe35",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/lock_recovery_holdout.py",
+    "source": "code/Generative EV-battery/data/lock_recovery_holdout.py",
+    "sha256": "397e32e7f02bc6f26898c3960ecca8ab02f8b353e2fbaddd45898ebff4533417",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/nonanticipative_scheduler.py",
+    "source": "code/Generative EV-battery/data/nonanticipative_scheduler.py",
+    "sha256": "2f84430382b63d3ee06d17297e6bd8819568d87644d40870ddffbd18e452e940",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/plot_four_scenarios.py",
+    "source": "code/Generative EV-battery/data/plot_four_scenarios.py",
+    "sha256": "5ed59203286313bf518dcb53ee516fd8b086d469574af3783e4bc8764bbdf9ce",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/plot_stress_figures.py",
+    "source": "code/Generative EV-battery/data/plot_stress_figures.py",
+    "sha256": "59794598c7e307a65c59c423c8cf897a00ba25e6b7ccebb7f90c55f4f6d69d68",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/replay_archived_budget8.py",
+    "source": "code/Generative EV-battery/data/replay_archived_budget8.py",
+    "sha256": "bf07f18c033611aaafac1cf2ca5e6e1a523a6a95088461e7ae9d7c5716ffc74d",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/replay_peak_physical_holdout.py",
+    "source": "code/Generative EV-battery/data/replay_peak_physical_holdout.py",
+    "sha256": "b57d6b8cfdb72c56aaf2c9dd792ecac43f60e679faa8cd8c04045d5d7853f810",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/replay_peak_recovery_curve.py",
+    "source": "code/Generative EV-battery/data/replay_peak_recovery_curve.py",
+    "sha256": "2f96e6df2b325faa978d9f775ec76a42b1d3392a3ddde030c027ab5b79fbec32",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/request_joint_context_seeds.py",
+    "source": "code/Generative EV-battery/data/request_joint_context_seeds.py",
+    "sha256": "0cf7435794cb4f6e5272c0b83cff6d5812646ccb45d5c44fc86ffd04148ec185",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/request_llm_timing_pilot_seeds.py",
+    "source": "code/Generative EV-battery/data/request_llm_timing_pilot_seeds.py",
+    "sha256": "034f32fdd3271b3c738650c85df6af2c316e0324ca833af30b44c4e4c41c232d",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/request_real_llm_warmstarts.py",
+    "source": "code/Generative EV-battery/data/request_real_llm_warmstarts.py",
+    "sha256": "9687008c318fae9688da6d19ab85a6fca527b8ca05fe0d2a57c6cf01df752be7",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/rerun_archived_gpt6_benchmark.py",
+    "source": "code/Generative EV-battery/data/rerun_archived_gpt6_benchmark.py",
+    "sha256": "dfd6ced231db84c28ed83bd513723e8f4d5027daa1ffc113dae381dc7a27358e",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_aging_capacity_diagnostics.py",
+    "source": "code/Generative EV-battery/data/run_aging_capacity_diagnostics.py",
+    "sha256": "43f3cd792e6882fb97fae978fc788e713bc18a09cae66aee2fa616ac7c4fb45f",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_binding_archive_recovery.py",
+    "source": "code/Generative EV-battery/data/run_binding_archive_recovery.py",
+    "sha256": "8f76c37422ae797e2384ec382933c6b35579bc6e207337ab3a09a8679fa97ba9",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_calibrated_recovery_floor.py",
+    "source": "code/Generative EV-battery/data/run_calibrated_recovery_floor.py",
+    "sha256": "aed1b21831480c61f9bdb30474102a64ac9b7db9a98f60592d35adb4bc9476c3",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_dense_binding_archive.py",
+    "source": "code/Generative EV-battery/data/run_dense_binding_archive.py",
+    "sha256": "bf265b722b705327a2a460e50b211e415faa0dff8489f9fa2d5a0eadd254586b",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_directional_pinn_ablation.py",
+    "source": "code/Generative EV-battery/data/run_directional_pinn_ablation.py",
+    "sha256": "b1df1baa7071ceb10066d4ae51716d96545289c0a9e0a1e7c25e1a44bc32b34c",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_directional_pinn_robustness.py",
+    "source": "code/Generative EV-battery/data/run_directional_pinn_robustness.py",
+    "sha256": "369fba4736bba5f167303be4c90dc3d0f1f86082ae48ffbd085bca091b073c4e",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_directional_pinn_validation.py",
+    "source": "code/Generative EV-battery/data/run_directional_pinn_validation.py",
+    "sha256": "d27d1d52e3e3ffdc51099e3223e9d473f2ce83dacbee1b53f8209db8fc33f1e8",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_fine_grid_fallback_diagnostics.py",
+    "source": "code/Generative EV-battery/data/run_fine_grid_fallback_diagnostics.py",
+    "sha256": "ce0e3b0d1db1279ef0a86849948afa9da448f524c5748ae07bdfa06dd28a4ea6",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_fixed_service_ablation.py",
+    "source": "code/Generative EV-battery/data/run_fixed_service_ablation.py",
+    "sha256": "5c1e9dd0a6b31eb19e74fe147f86c7c134ed9b8aa7ca6ad95bbab42ccb744688",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_frozen_recovery_validation.py",
+    "source": "code/Generative EV-battery/data/run_frozen_recovery_validation.py",
+    "sha256": "2208715cf08e3764e8469829632f0b0e947f4e550aafb7621a9ac886a7a4b1eb",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_full_service_recovery_pilot.py",
+    "source": "code/Generative EV-battery/data/run_full_service_recovery_pilot.py",
+    "sha256": "1d80496f00abd9b2f1d68def952ec62dbf2cd6b0bace0d3b6e15098802e57bda",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_gemini_feedback_pair.py",
+    "source": "code/Generative EV-battery/data/run_gemini_feedback_pair.py",
+    "sha256": "b048ae1b234a67ac70fa92d3f15f31ec4d299403c8f5d4fe647731a478f39e4f",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_joint_context_warm_start.py",
+    "source": "code/Generative EV-battery/data/run_joint_context_warm_start.py",
+    "sha256": "473a3ba60034e245da7834a5f0e90f8b661349a6a559dbd94a61ca1c6d9be00a",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_lambda_sweep_stochastic_optimization.py",
+    "source": "code/Generative EV-battery/data/run_lambda_sweep_stochastic_optimization.py",
+    "sha256": "d3d1571c7cc984fed60e32741cb976cbaa40b648c3d40868f13c56db76af0088",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_lambda_sweep_stochastic_optimization2.py",
+    "source": "code/Generative EV-battery/data/run_lambda_sweep_stochastic_optimization2.py",
+    "sha256": "0e1bfe945988db3084ae2ebc351dae1f3c8485100698dd90ea1794b668538a09",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_legacy_tail_sensitivity.py",
+    "source": "code/Generative EV-battery/data/run_legacy_tail_sensitivity.py",
+    "sha256": "2d949b969e5760b37bb5501a88722733f4b22bdac97c3f07ddaaced646ade209",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_llm_timing_pilot.py",
+    "source": "code/Generative EV-battery/data/run_llm_timing_pilot.py",
+    "sha256": "1b76a3652fc82e936863f6e3269ba558a858b67e65ad8b744a6ca1acc37d5bc0",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_locked_holdout_warm_starts.py",
+    "source": "code/Generative EV-battery/data/run_locked_holdout_warm_starts.py",
+    "sha256": "52ce8c716214b14d0992ed9e1b6a176977a33f7d02b7aa1a32d95ea69e181000",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_minimal_flex_pilot.py",
+    "source": "code/Generative EV-battery/data/run_minimal_flex_pilot.py",
+    "sha256": "f72345b29fbe0895e1fcf479495bd677f2f17ed1ccc7d655c387313feaa99294",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_minimum_archive_recovery_additions.py",
+    "source": "code/Generative EV-battery/data/run_minimum_archive_recovery_additions.py",
+    "sha256": "8688d7e6c9b7bc4ed134835faa1225a948d5610a4659901eb14daa00f696053d",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_paper_archive_recovery.py",
+    "source": "code/Generative EV-battery/data/run_paper_archive_recovery.py",
+    "sha256": "2d1c3d9b7a5ac507142b3dbed0cf2351046b70e92d54ebbbf6aa55bae87347bd",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_peak_exploration_pair.py",
+    "source": "code/Generative EV-battery/data/run_peak_exploration_pair.py",
+    "sha256": "03c78879376e77f6f852b3640896ad3e633f9df2df95f4a262b8540bddbb8268",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_real_llm_warmstart_pair.py",
+    "source": "code/Generative EV-battery/data/run_real_llm_warmstart_pair.py",
+    "sha256": "44f0b7f32048b5a46873bcad57b28b7d1359586eae240a22a05de3e4320a8a37",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_receding_horizon_optimization.py",
+    "source": "code/Generative EV-battery/data/run_receding_horizon_optimization.py",
+    "sha256": "25fa9c050eb2189e7cee956a5d11f95b13325929227ba71437888edc833dcf33",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_scenario_optimization.py",
+    "source": "code/Generative EV-battery/data/run_scenario_optimization.py",
+    "sha256": "1df998aa492fd104f9950275000f83924d1ee2cc8e13c88cb517aa4f52d077d2",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_scenario_optimization2.py",
+    "source": "code/Generative EV-battery/data/run_scenario_optimization2.py",
+    "sha256": "58c01e8dc11356aafc1c506e51fc63e9ee9077a684f4b62e7c3c1c5ddce2c60f",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_section_iv_replay.py",
+    "source": "code/Generative EV-battery/data/run_section_iv_replay.py",
+    "sha256": "7aa0bb46e9fbc47bd6d535b507176191ce83d86631a3a71abeeb09f3d7322c41",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_service_fallback_pilot.py",
+    "source": "code/Generative EV-battery/data/run_service_fallback_pilot.py",
+    "sha256": "a305e51ee180b6af2155efe33abf6007555db9e2a539e034322d5f4102b10b17",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_stochastic_scenario_optimization_flexible.py",
+    "source": "code/Generative EV-battery/data/run_stochastic_scenario_optimization_flexible.py",
+    "sha256": "1830bf863aa0c994899a15f353217e82f3dc3714536465ceef3366974451430d",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_stochastic_scenario_optimization_with_degradation.py",
+    "source": "code/Generative EV-battery/data/run_stochastic_scenario_optimization_with_degradation.py",
+    "sha256": "14aff05ddc0ca1a9f774d92cbd3b70fa28e7cae5e96b11cbd1a1bfaeb5b23e51",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_stochastic_scenario_optimization_with_degradation_pinn.py",
+    "source": "code/Generative EV-battery/data/run_stochastic_scenario_optimization_with_degradation_pinn.py",
+    "sha256": "3a532b4d044b5f4572bed8c2a7701f2ed3ad5312c27c928a403767801549831e",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/run_visible_deadline_archive.py",
+    "source": "code/Generative EV-battery/data/run_visible_deadline_archive.py",
+    "sha256": "651a92127617f350ea465c5b1432caefbfff6d03b7f7febad492aa22c4b6b8bb",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/screen_adaptive_recovery_reserve.py",
+    "source": "code/Generative EV-battery/data/screen_adaptive_recovery_reserve.py",
+    "sha256": "e15abc2c252a3936c99b17765d75bc0029d3f6463f226a54715680f5158c561d",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/screen_aging_derating_overlap.py",
+    "source": "code/Generative EV-battery/data/screen_aging_derating_overlap.py",
+    "sha256": "4e306605ba4076a268028e415165ea51f2e78c2b74623797d70413013498656a",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/screen_departure_price.py",
+    "source": "code/Generative EV-battery/data/screen_departure_price.py",
+    "sha256": "40432dfcb2e8260c0cf32383c148da53d3668bd6fe33d17a14b4a7b75a7d7fd6",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/screen_forecast_adaptive_reserve.py",
+    "source": "code/Generative EV-battery/data/screen_forecast_adaptive_reserve.py",
+    "sha256": "721a81af2d09cf1a29d9ac8939740725ba51a97c24cabbbfdf0ab2ae6a6a0d33",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/screen_low_confidence_recovery.py",
+    "source": "code/Generative EV-battery/data/screen_low_confidence_recovery.py",
+    "sha256": "9c454f334979b712bb50fe8b2a71316032975356119cabee9b2d2b821cb740ad",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/screen_recovery_departure.py",
+    "source": "code/Generative EV-battery/data/screen_recovery_departure.py",
+    "sha256": "9cc372588a38841f7386e00aba8584bd4b0158d6f987828d90d894567448a8a6",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/simulate_repeated_operation_soh.py",
+    "source": "code/Generative EV-battery/data/simulate_repeated_operation_soh.py",
+    "sha256": "2780c74fbf361d8f38b1a2876a3a915727570819841741ba4361575c3ed1054b",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/train_conditional_ev_vae.py",
+    "source": "code/Generative EV-battery/data/train_conditional_ev_vae.py",
+    "sha256": "da0093a1a87fb9e8108970097cb1819d9bb4b1928df74fcb68a29ea5a806af89",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/train_ev_generator.py",
+    "source": "code/Generative EV-battery/data/train_ev_generator.py",
+    "sha256": "7c8de9f77469c316b17c1047d44e4ab3540544d99b0c0038f2bae5008266f5a9",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/train_ev_generator2.py",
+    "source": "code/Generative EV-battery/data/train_ev_generator2.py",
+    "sha256": "252c314fa96011b0721f0b4e1e7469a5a48caa4d4b0084f88316f731aca218f6",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/train_grid_generator.py",
+    "source": "code/Generative EV-battery/data/train_grid_generator.py",
+    "sha256": "1ccc27d189fec10d1a2f6cbb243eca2c1c70fcce5c16306e13c9e545b6c0572f",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/validate_fresh_evening_peak_feedback.py",
+    "source": "code/Generative EV-battery/data/validate_fresh_evening_peak_feedback.py",
+    "sha256": "c901ebfb1a305144102aacb01d0cb589aac9d6941f65fd9191f19fab29acf75e",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/ev_grid_world_model/ev_generator_world_model.py",
+    "source": "code/Generative EV-battery/data/ev_grid_world_model/ev_generator_world_model.py",
+    "sha256": "ae0f775b0de75ebf8b7417dbb61988f3076f486c5fb8f35767a5244fa72d5413",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/ev_grid_world_model/example_usage.py",
+    "source": "code/Generative EV-battery/data/ev_grid_world_model/example_usage.py",
+    "sha256": "f41182b0f86efa2e225c3515b7b7a3ad26bc9d746e981a87eaa7cb5ee45ed68c",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/ev_grid_world_model/grid_generator_world_model.py",
+    "source": "code/Generative EV-battery/data/ev_grid_world_model/grid_generator_world_model.py",
+    "sha256": "67848c1fc25939d7c00ff002fd0760f6cd3666f33196703b49cf6a5a190bfa01",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/ev_grid_world_model/joint_scenarios_world_model.py",
+    "source": "code/Generative EV-battery/data/ev_grid_world_model/joint_scenarios_world_model.py",
+    "sha256": "73a02fe18b849dbcb8cf3176c88b784500fa04672e3c9a93c597e2ed662d0a5c",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/ev_grid_world_model/README.md",
+    "source": "code/Generative EV-battery/data/ev_grid_world_model/README.md",
+    "sha256": "3d6d12ea4d9ad87a7655b53581aef230ac3a8419bd43a835e74352a5078ad4d9",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/ev_grid_world_model/world_model_common.py",
+    "source": "code/Generative EV-battery/data/ev_grid_world_model/world_model_common.py",
+    "sha256": "e3e33e2cdc6360b60698623545915ff3b11444591293240a61ef4e70de43eefb",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_world_model_exact_matched/build_joint_scenarios_f.py",
+    "source": "code/Generative EV-battery/data/final_world_model_exact_matched/build_joint_scenarios_f.py",
+    "sha256": "a2bf78e8b0d1cef4cf68c2592ee47d4d2ebba846235e45df7b5bab6dc25eb421",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_world_model_exact_matched/README.txt",
+    "source": "code/Generative EV-battery/data/final_world_model_exact_matched/README.txt",
+    "sha256": "aaa600d125c238fef86b951a1cb5768923ef8b2bdccf3f5e0059e95d5b2fe772",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_world_model_exact_matched/train_ev_generator_f.py",
+    "source": "code/Generative EV-battery/data/final_world_model_exact_matched/train_ev_generator_f.py",
+    "sha256": "31d39496f8b9bc355f93de6e7478b9ea04c0c5c749be0ed55d66a7ee510e6bf5",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_world_model_exact_matched/train_grid_generator_f.py",
+    "source": "code/Generative EV-battery/data/final_world_model_exact_matched/train_grid_generator_f.py",
+    "sha256": "fb71594fa36bc73f3a6a439bb33d36859dcc7f76165a82c7cb8e405dc2bebdae",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_world_model_exact_matched/validate_available_components.py",
+    "source": "code/Generative EV-battery/data/final_world_model_exact_matched/validate_available_components.py",
+    "sha256": "12d9b5181e65658e8bffba2f2aa5e7b43c2e10ca1e6b09ab24501b2b86d6f24e",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_world_model_exact_matched/world_model_common.py",
+    "source": "code/Generative EV-battery/data/final_world_model_exact_matched/world_model_common.py",
+    "sha256": "2dca7da23f93c29192e974d8fd80f2d4ba7476bbb4c67f00d0d11dda64fffa1f",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_aligned_world_model_code/build_joint_scenarios.py",
+    "source": "code/Generative EV-battery/data/final_aligned_world_model_code/build_joint_scenarios.py",
+    "sha256": "81372d0b9399bfd7fe7743187c6ae4df73960c1dd57485d276c5d31fe39b86ce",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_aligned_world_model_code/README.txt",
+    "source": "code/Generative EV-battery/data/final_aligned_world_model_code/README.txt",
+    "sha256": "24baebeb4bdd5a7eb87e38e817fa7d798856f48074190548b56f1038bb0b4c4f",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_aligned_world_model_code/train_ev_generator.py",
+    "source": "code/Generative EV-battery/data/final_aligned_world_model_code/train_ev_generator.py",
+    "sha256": "cd91df64e7e2d8a06580ea5da5c4a8592416bc407b50018aa1db75e1734d034d",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_aligned_world_model_code/train_grid_generator.py",
+    "source": "code/Generative EV-battery/data/final_aligned_world_model_code/train_grid_generator.py",
+    "sha256": "d8fd1dbedfbd937dafbbefa8d17c341aad0eb2cf769b7b3fa25ec6738c8ac77a",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "pipeline/final_aligned_world_model_code/world_model_common.py",
+    "source": "code/Generative EV-battery/data/final_aligned_world_model_code/world_model_common.py",
+    "sha256": "1bc146cb3e9ac618e10f31c763bc2b58452843dfddb05662e4bfec0f895753f1",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/data_processing.py",
+    "source": "code/data_processing.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/EV-battery-large system1.py",
+    "source": "code/EV-battery-large system1.py",
+    "sha256": "74db540eab59ce596d7556da03f84a56c20b6ae90736d3d59015b9c8dcc4f353",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/EV-battery-large system2.py",
+    "source": "code/EV-battery-large system2.py",
+    "sha256": "91a8ba9a937867d283702ed716a6bd45c985eb0ca6a921e64053ba4a67c9db01",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/EV-battery-large system3.py",
+    "source": "code/EV-battery-large system3.py",
+    "sha256": "227d9b6d0df3dbd25b11bc9861b3017eb4e58bee72c67d52f6d2f888cd5adb53",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/EV-battery-large system4.py",
+    "source": "code/EV-battery-large system4.py",
+    "sha256": "533847ebded5b27caa6b289ddf5c23af8e92e00b3f73044a5f2cc3756ea3ad1c",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/EV-battery-large system5.py",
+    "source": "code/EV-battery-large system5.py",
+    "sha256": "51679de5f304da749917e6160fa695895c5cce6ef6cae492d382a73d3071757e",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/EV-battery-small system.py",
+    "source": "code/EV-battery-small system.py",
+    "sha256": "bb0095bbbe02ff7ffcaafb57726dd8cae32105bed2be71539f23c07895e177a0",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/EV-battery-small system2.py",
+    "source": "code/EV-battery-small system2.py",
+    "sha256": "85304b7d889df80b088c6ae79a52972b6ab0415eb81a20a6e3b945e2c92b4686",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/EV-battery-small system3.py",
+    "source": "code/EV-battery-small system3.py",
+    "sha256": "6376c0e9175ab30e58bb628569d6519ac5f72dc3785a016518a574577efc9cae",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/plot_us_maps.py",
+    "source": "code/plot_us_maps.py",
+    "sha256": "dda3293bf834310a3d3baa5ff98cb0b4008e3faad76181509d4ef7fc8e003339",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/plot_us_maps_CDIVMSAR.py",
+    "source": "code/plot_us_maps_CDIVMSAR.py",
+    "sha256": "1a0bba4af214ef773ad1d5267bc9041078b0e545205994ccb946509fad78d7f8",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/prepare_eia930_region_profiles.py",
+    "source": "code/prepare_eia930_region_profiles.py",
+    "sha256": "18070dcb60e94f25fdbda20053c65febd7a001cb213421b73b75207efe0fbb4d",
+    "change": "credential moved to EIA_API_KEY environment variable"
+  },
+  {
+    "path": "legacy/prepare_nhts_us.py",
+    "source": "code/prepare_nhts_us.py",
+    "sha256": "fccfb8ba3a5a7a3e4135f7213cef25a099ee846366b4adb9e69950fa507c1572",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/prepare_nhts_us_CDIVMSAR.py",
+    "source": "code/prepare_nhts_us_CDIVMSAR.py",
+    "sha256": "e994db865131c6848564352a3f435597c3bf67a16d7b41ee470923b8412453d0",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/prepare_real_sessions.py",
+    "source": "code/prepare_real_sessions.py",
+    "sha256": "2ee8032a660407e8ae107e17e05a2edd389b085bac9e6029ffd380278a75a2ab",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "legacy/region.py",
+    "source": "code/region.py",
+    "sha256": "ecdf974d383b4402e2abf1878481a0e05576a635c8e8c48d3f776577d7e967b1",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "tools/download_nyiso_ev_data.py",
+    "source": "code/Generative EV-battery/download_nyiso_ev_data.py",
+    "sha256": "0ae36424a5ec6995783d9d59ac02b79ffaf0e253b063c26693e8a52e2e99ddb7",
+    "change": "UTF-8/LF normalization only"
+  },
+  {
+    "path": "figures/plot_fig6_directional_ablation.py",
+    "source": "code/figures/plot_fig6_directional_ablation.py",
+    "sha256": "918243904030f42e1ce7abea7f4feb21d566aeae356f8f7361b96232b32ffda3",
+    "change": "UTF-8/LF normalization only"
+  }
+]

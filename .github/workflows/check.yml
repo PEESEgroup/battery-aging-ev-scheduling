@@ -1,0 +1,14 @@
+name: Source and replay checks
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+      - run: python -m pip install -r requirements.txt
+      - run: python -m compileall -q pipeline legacy tools figures
+      - run: python run_section_iv_replay.py --check-only
+        working-directory: pipeline
